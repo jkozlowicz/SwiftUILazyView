@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B720EA1260DF488008FDF84 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EA0260DF488008FDF84 /* Tests_iOS.swift */; };
+		3B720EAC260DF488008FDF84 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EAB260DF488008FDF84 /* Tests_macOS.swift */; };
+		3B720EAE260DF488008FDF84 /* LazyViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720E85260DF487008FDF84 /* LazyViewApp.swift */; };
+		3B720EAF260DF488008FDF84 /* LazyViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720E85260DF487008FDF84 /* LazyViewApp.swift */; };
+		3B720EB0260DF488008FDF84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720E86260DF487008FDF84 /* ContentView.swift */; };
+		3B720EB1260DF488008FDF84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720E86260DF487008FDF84 /* ContentView.swift */; };
+		3B720EB2260DF488008FDF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B720E87260DF488008FDF84 /* Assets.xcassets */; };
+		3B720EB3260DF488008FDF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B720E87260DF488008FDF84 /* Assets.xcassets */; };
+		3B720EC7260DF4B3008FDF84 /* MyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EC6260DF4B3008FDF84 /* MyGroup.swift */; };
+		3B720EC8260DF4B3008FDF84 /* MyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EC6260DF4B3008FDF84 /* MyGroup.swift */; };
+		3B720ECE260DF4C1008FDF84 /* MyGroupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720ECD260DF4C1008FDF84 /* MyGroupItem.swift */; };
+		3B720ECF260DF4C1008FDF84 /* MyGroupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720ECD260DF4C1008FDF84 /* MyGroupItem.swift */; };
+		3B720ED5260DF4D2008FDF84 /* LazyViewRowHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720ED4260DF4D2008FDF84 /* LazyViewRowHeader.swift */; };
+		3B720ED6260DF4D2008FDF84 /* LazyViewRowHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720ED4260DF4D2008FDF84 /* LazyViewRowHeader.swift */; };
+		3B720EDC260DF4E3008FDF84 /* LazyViewRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EDB260DF4E3008FDF84 /* LazyViewRowItem.swift */; };
+		3B720EDD260DF4E3008FDF84 /* LazyViewRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EDB260DF4E3008FDF84 /* LazyViewRowItem.swift */; };
+		3B720EE3260DF4FC008FDF84 /* SVGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EE2260DF4FC008FDF84 /* SVGImage.swift */; };
+		3B720EE4260DF4FC008FDF84 /* SVGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EE2260DF4FC008FDF84 /* SVGImage.swift */; };
+		3B720EEB260DF53D008FDF84 /* Macaw in Frameworks */ = {isa = PBXBuildFile; productRef = 3B720EEA260DF53D008FDF84 /* Macaw */; };
+		3B720EF1260DF547008FDF84 /* LazyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EF0260DF547008FDF84 /* LazyViewModel.swift */; };
+		3B720EF2260DF547008FDF84 /* LazyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EF0260DF547008FDF84 /* LazyViewModel.swift */; };
+		3B720EF8260DF55E008FDF84 /* LazyViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EF7260DF55E008FDF84 /* LazyViewContent.swift */; };
+		3B720EF9260DF55E008FDF84 /* LazyViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EF7260DF55E008FDF84 /* LazyViewContent.swift */; };
+		3B720EFF260DF573008FDF84 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EFE260DF573008FDF84 /* LazyView.swift */; };
+		3B720F00260DF573008FDF84 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B720EFE260DF573008FDF84 /* LazyView.swift */; };
+		3B720F08260DF5A0008FDF84 /* icons8-dog_walking.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F07260DF5A0008FDF84 /* icons8-dog_walking.svg */; };
+		3B720F09260DF5A0008FDF84 /* icons8-dog_walking.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F07260DF5A0008FDF84 /* icons8-dog_walking.svg */; };
+		3B720F0F260DF5D0008FDF84 /* icons8-snake.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F0E260DF5D0008FDF84 /* icons8-snake.svg */; };
+		3B720F10260DF5D0008FDF84 /* icons8-snake.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F0E260DF5D0008FDF84 /* icons8-snake.svg */; };
+		3B720F16260DF5DC008FDF84 /* icons8-lion.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F15260DF5DC008FDF84 /* icons8-lion.svg */; };
+		3B720F17260DF5DC008FDF84 /* icons8-lion.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F15260DF5DC008FDF84 /* icons8-lion.svg */; };
+		3B720F1D260DF5F2008FDF84 /* icons8-dinosaur_egg.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F1C260DF5F2008FDF84 /* icons8-dinosaur_egg.svg */; };
+		3B720F1E260DF5F2008FDF84 /* icons8-dinosaur_egg.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F1C260DF5F2008FDF84 /* icons8-dinosaur_egg.svg */; };
+		3B720F24260DF607008FDF84 /* icons8-dog_park.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F23260DF607008FDF84 /* icons8-dog_park.svg */; };
+		3B720F25260DF607008FDF84 /* icons8-dog_park.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F23260DF607008FDF84 /* icons8-dog_park.svg */; };
+		3B720F2B260DF614008FDF84 /* icons8-cat_head.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F2A260DF614008FDF84 /* icons8-cat_head.svg */; };
+		3B720F2C260DF614008FDF84 /* icons8-cat_head.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F2A260DF614008FDF84 /* icons8-cat_head.svg */; };
+		3B720F32260DF61C008FDF84 /* icons8-mouse_animal.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F31260DF61C008FDF84 /* icons8-mouse_animal.svg */; };
+		3B720F33260DF61C008FDF84 /* icons8-mouse_animal.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3B720F31260DF61C008FDF84 /* icons8-mouse_animal.svg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B720E9D260DF488008FDF84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B720E80260DF487008FDF84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B720E8B260DF488008FDF84;
+			remoteInfo = "LazyView (iOS)";
+		};
+		3B720EA8260DF488008FDF84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B720E80260DF487008FDF84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B720E93260DF488008FDF84;
+			remoteInfo = "LazyView (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B720E85260DF487008FDF84 /* LazyViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyViewApp.swift; sourceTree = "<group>"; };
+		3B720E86260DF487008FDF84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B720E87260DF488008FDF84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B720E8C260DF488008FDF84 /* LazyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B720E8F260DF488008FDF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B720E94260DF488008FDF84 /* LazyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B720E96260DF488008FDF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B720E97260DF488008FDF84 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3B720E9C260DF488008FDF84 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B720EA0260DF488008FDF84 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		3B720EA2260DF488008FDF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B720EA7260DF488008FDF84 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B720EAB260DF488008FDF84 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		3B720EAD260DF488008FDF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B720EC6260DF4B3008FDF84 /* MyGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroup.swift; sourceTree = "<group>"; };
+		3B720ECD260DF4C1008FDF84 /* MyGroupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupItem.swift; sourceTree = "<group>"; };
+		3B720ED4260DF4D2008FDF84 /* LazyViewRowHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyViewRowHeader.swift; sourceTree = "<group>"; };
+		3B720EDB260DF4E3008FDF84 /* LazyViewRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyViewRowItem.swift; sourceTree = "<group>"; };
+		3B720EE2260DF4FC008FDF84 /* SVGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGImage.swift; sourceTree = "<group>"; };
+		3B720EF0260DF547008FDF84 /* LazyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyViewModel.swift; sourceTree = "<group>"; };
+		3B720EF7260DF55E008FDF84 /* LazyViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyViewContent.swift; sourceTree = "<group>"; };
+		3B720EFE260DF573008FDF84 /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+		3B720F07260DF5A0008FDF84 /* icons8-dog_walking.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "icons8-dog_walking.svg"; sourceTree = "<group>"; };
+		3B720F0E260DF5D0008FDF84 /* icons8-snake.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "icons8-snake.svg"; sourceTree = "<group>"; };
+		3B720F15260DF5DC008FDF84 /* icons8-lion.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "icons8-lion.svg"; sourceTree = "<group>"; };
+		3B720F1C260DF5F2008FDF84 /* icons8-dinosaur_egg.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "icons8-dinosaur_egg.svg"; sourceTree = "<group>"; };
+		3B720F23260DF607008FDF84 /* icons8-dog_park.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "icons8-dog_park.svg"; sourceTree = "<group>"; };
+		3B720F2A260DF614008FDF84 /* icons8-cat_head.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "icons8-cat_head.svg"; sourceTree = "<group>"; };
+		3B720F31260DF61C008FDF84 /* icons8-mouse_animal.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "icons8-mouse_animal.svg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B720E89260DF488008FDF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B720EEB260DF53D008FDF84 /* Macaw in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B720E91260DF488008FDF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B720E99260DF488008FDF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B720EA4260DF488008FDF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B720E7F260DF487008FDF84 = {
+			isa = PBXGroup;
+			children = (
+				3B720F05260DF591008FDF84 /* resources */,
+				3B720E84260DF487008FDF84 /* Shared */,
+				3B720E8E260DF488008FDF84 /* iOS */,
+				3B720E95260DF488008FDF84 /* macOS */,
+				3B720E9F260DF488008FDF84 /* Tests iOS */,
+				3B720EAA260DF488008FDF84 /* Tests macOS */,
+				3B720E8D260DF488008FDF84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B720E84260DF487008FDF84 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3B720E85260DF487008FDF84 /* LazyViewApp.swift */,
+				3B720E86260DF487008FDF84 /* ContentView.swift */,
+				3B720E87260DF488008FDF84 /* Assets.xcassets */,
+				3B720EC6260DF4B3008FDF84 /* MyGroup.swift */,
+				3B720ECD260DF4C1008FDF84 /* MyGroupItem.swift */,
+				3B720ED4260DF4D2008FDF84 /* LazyViewRowHeader.swift */,
+				3B720EDB260DF4E3008FDF84 /* LazyViewRowItem.swift */,
+				3B720EE2260DF4FC008FDF84 /* SVGImage.swift */,
+				3B720EF0260DF547008FDF84 /* LazyViewModel.swift */,
+				3B720EF7260DF55E008FDF84 /* LazyViewContent.swift */,
+				3B720EFE260DF573008FDF84 /* LazyView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3B720E8D260DF488008FDF84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B720E8C260DF488008FDF84 /* LazyView.app */,
+				3B720E94260DF488008FDF84 /* LazyView.app */,
+				3B720E9C260DF488008FDF84 /* Tests iOS.xctest */,
+				3B720EA7260DF488008FDF84 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B720E8E260DF488008FDF84 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B720E8F260DF488008FDF84 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		3B720E95260DF488008FDF84 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B720E96260DF488008FDF84 /* Info.plist */,
+				3B720E97260DF488008FDF84 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		3B720E9F260DF488008FDF84 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B720EA0260DF488008FDF84 /* Tests_iOS.swift */,
+				3B720EA2260DF488008FDF84 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		3B720EAA260DF488008FDF84 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B720EAB260DF488008FDF84 /* Tests_macOS.swift */,
+				3B720EAD260DF488008FDF84 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		3B720F05260DF591008FDF84 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B720F06260DF597008FDF84 /* images */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		3B720F06260DF597008FDF84 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3B720F15260DF5DC008FDF84 /* icons8-lion.svg */,
+				3B720F31260DF61C008FDF84 /* icons8-mouse_animal.svg */,
+				3B720F0E260DF5D0008FDF84 /* icons8-snake.svg */,
+				3B720F2A260DF614008FDF84 /* icons8-cat_head.svg */,
+				3B720F1C260DF5F2008FDF84 /* icons8-dinosaur_egg.svg */,
+				3B720F23260DF607008FDF84 /* icons8-dog_park.svg */,
+				3B720F07260DF5A0008FDF84 /* icons8-dog_walking.svg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B720E8B260DF488008FDF84 /* LazyView (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B720EB6260DF488008FDF84 /* Build configuration list for PBXNativeTarget "LazyView (iOS)" */;
+			buildPhases = (
+				3B720E88260DF488008FDF84 /* Sources */,
+				3B720E89260DF488008FDF84 /* Frameworks */,
+				3B720E8A260DF488008FDF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LazyView (iOS)";
+			packageProductDependencies = (
+				3B720EEA260DF53D008FDF84 /* Macaw */,
+			);
+			productName = "LazyView (iOS)";
+			productReference = 3B720E8C260DF488008FDF84 /* LazyView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B720E93260DF488008FDF84 /* LazyView (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B720EB9260DF488008FDF84 /* Build configuration list for PBXNativeTarget "LazyView (macOS)" */;
+			buildPhases = (
+				3B720E90260DF488008FDF84 /* Sources */,
+				3B720E91260DF488008FDF84 /* Frameworks */,
+				3B720E92260DF488008FDF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LazyView (macOS)";
+			productName = "LazyView (macOS)";
+			productReference = 3B720E94260DF488008FDF84 /* LazyView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B720E9B260DF488008FDF84 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B720EBC260DF488008FDF84 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				3B720E98260DF488008FDF84 /* Sources */,
+				3B720E99260DF488008FDF84 /* Frameworks */,
+				3B720E9A260DF488008FDF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B720E9E260DF488008FDF84 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 3B720E9C260DF488008FDF84 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3B720EA6260DF488008FDF84 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B720EBF260DF488008FDF84 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				3B720EA3260DF488008FDF84 /* Sources */,
+				3B720EA4260DF488008FDF84 /* Frameworks */,
+				3B720EA5260DF488008FDF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B720EA9260DF488008FDF84 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 3B720EA7260DF488008FDF84 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B720E80260DF487008FDF84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3B720E8B260DF488008FDF84 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3B720E93260DF488008FDF84 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3B720E9B260DF488008FDF84 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3B720E8B260DF488008FDF84;
+					};
+					3B720EA6260DF488008FDF84 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3B720E93260DF488008FDF84;
+					};
+				};
+			};
+			buildConfigurationList = 3B720E83260DF487008FDF84 /* Build configuration list for PBXProject "LazyView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B720E7F260DF487008FDF84;
+			packageReferences = (
+				3B720EE9260DF53D008FDF84 /* XCRemoteSwiftPackageReference "Macaw" */,
+			);
+			productRefGroup = 3B720E8D260DF488008FDF84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B720E8B260DF488008FDF84 /* LazyView (iOS) */,
+				3B720E93260DF488008FDF84 /* LazyView (macOS) */,
+				3B720E9B260DF488008FDF84 /* Tests iOS */,
+				3B720EA6260DF488008FDF84 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B720E8A260DF488008FDF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B720F32260DF61C008FDF84 /* icons8-mouse_animal.svg in Resources */,
+				3B720F16260DF5DC008FDF84 /* icons8-lion.svg in Resources */,
+				3B720F0F260DF5D0008FDF84 /* icons8-snake.svg in Resources */,
+				3B720EB2260DF488008FDF84 /* Assets.xcassets in Resources */,
+				3B720F24260DF607008FDF84 /* icons8-dog_park.svg in Resources */,
+				3B720F08260DF5A0008FDF84 /* icons8-dog_walking.svg in Resources */,
+				3B720F2B260DF614008FDF84 /* icons8-cat_head.svg in Resources */,
+				3B720F1D260DF5F2008FDF84 /* icons8-dinosaur_egg.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B720E92260DF488008FDF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B720F33260DF61C008FDF84 /* icons8-mouse_animal.svg in Resources */,
+				3B720F17260DF5DC008FDF84 /* icons8-lion.svg in Resources */,
+				3B720F10260DF5D0008FDF84 /* icons8-snake.svg in Resources */,
+				3B720EB3260DF488008FDF84 /* Assets.xcassets in Resources */,
+				3B720F25260DF607008FDF84 /* icons8-dog_park.svg in Resources */,
+				3B720F09260DF5A0008FDF84 /* icons8-dog_walking.svg in Resources */,
+				3B720F2C260DF614008FDF84 /* icons8-cat_head.svg in Resources */,
+				3B720F1E260DF5F2008FDF84 /* icons8-dinosaur_egg.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B720E9A260DF488008FDF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B720EA5260DF488008FDF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B720E88260DF488008FDF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B720EB0260DF488008FDF84 /* ContentView.swift in Sources */,
+				3B720ED5260DF4D2008FDF84 /* LazyViewRowHeader.swift in Sources */,
+				3B720EF1260DF547008FDF84 /* LazyViewModel.swift in Sources */,
+				3B720EAE260DF488008FDF84 /* LazyViewApp.swift in Sources */,
+				3B720EE3260DF4FC008FDF84 /* SVGImage.swift in Sources */,
+				3B720ECE260DF4C1008FDF84 /* MyGroupItem.swift in Sources */,
+				3B720EF8260DF55E008FDF84 /* LazyViewContent.swift in Sources */,
+				3B720EDC260DF4E3008FDF84 /* LazyViewRowItem.swift in Sources */,
+				3B720EFF260DF573008FDF84 /* LazyView.swift in Sources */,
+				3B720EC7260DF4B3008FDF84 /* MyGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B720E90260DF488008FDF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B720EB1260DF488008FDF84 /* ContentView.swift in Sources */,
+				3B720ED6260DF4D2008FDF84 /* LazyViewRowHeader.swift in Sources */,
+				3B720EF2260DF547008FDF84 /* LazyViewModel.swift in Sources */,
+				3B720EAF260DF488008FDF84 /* LazyViewApp.swift in Sources */,
+				3B720EE4260DF4FC008FDF84 /* SVGImage.swift in Sources */,
+				3B720ECF260DF4C1008FDF84 /* MyGroupItem.swift in Sources */,
+				3B720EF9260DF55E008FDF84 /* LazyViewContent.swift in Sources */,
+				3B720EDD260DF4E3008FDF84 /* LazyViewRowItem.swift in Sources */,
+				3B720F00260DF573008FDF84 /* LazyView.swift in Sources */,
+				3B720EC8260DF4B3008FDF84 /* MyGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B720E98260DF488008FDF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B720EA1260DF488008FDF84 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B720EA3260DF488008FDF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B720EAC260DF488008FDF84 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B720E9E260DF488008FDF84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B720E8B260DF488008FDF84 /* LazyView (iOS) */;
+			targetProxy = 3B720E9D260DF488008FDF84 /* PBXContainerItemProxy */;
+		};
+		3B720EA9260DF488008FDF84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B720E93260DF488008FDF84 /* LazyView (macOS) */;
+			targetProxy = 3B720EA8260DF488008FDF84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B720EB4260DF488008FDF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B720EB5260DF488008FDF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3B720EB7260DF488008FDF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97H384C942;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakubkozlowicz.LazyView;
+				PRODUCT_NAME = LazyView;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B720EB8260DF488008FDF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97H384C942;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakubkozlowicz.LazyView;
+				PRODUCT_NAME = LazyView;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B720EBA260DF488008FDF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97H384C942;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakubkozlowicz.LazyView;
+				PRODUCT_NAME = LazyView;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3B720EBB260DF488008FDF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97H384C942;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakubkozlowicz.LazyView;
+				PRODUCT_NAME = LazyView;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3B720EBD260DF488008FDF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97H384C942;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubkozlowicz.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LazyView (iOS)";
+			};
+			name = Debug;
+		};
+		3B720EBE260DF488008FDF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97H384C942;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubkozlowicz.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LazyView (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B720EC0260DF488008FDF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97H384C942;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubkozlowicz.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LazyView (macOS)";
+			};
+			name = Debug;
+		};
+		3B720EC1260DF488008FDF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97H384C942;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubkozlowicz.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LazyView (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B720E83260DF487008FDF84 /* Build configuration list for PBXProject "LazyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B720EB4260DF488008FDF84 /* Debug */,
+				3B720EB5260DF488008FDF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B720EB6260DF488008FDF84 /* Build configuration list for PBXNativeTarget "LazyView (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B720EB7260DF488008FDF84 /* Debug */,
+				3B720EB8260DF488008FDF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B720EB9260DF488008FDF84 /* Build configuration list for PBXNativeTarget "LazyView (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B720EBA260DF488008FDF84 /* Debug */,
+				3B720EBB260DF488008FDF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B720EBC260DF488008FDF84 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B720EBD260DF488008FDF84 /* Debug */,
+				3B720EBE260DF488008FDF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B720EBF260DF488008FDF84 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B720EC0260DF488008FDF84 /* Debug */,
+				3B720EC1260DF488008FDF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B720EE9260DF53D008FDF84 /* XCRemoteSwiftPackageReference "Macaw" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/Macaw.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B720EEA260DF53D008FDF84 /* Macaw */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B720EE9260DF53D008FDF84 /* XCRemoteSwiftPackageReference "Macaw" */;
+			productName = Macaw;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3B720E80260DF487008FDF84 /* Project object */;
+}
